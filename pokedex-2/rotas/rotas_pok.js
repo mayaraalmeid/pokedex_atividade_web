@@ -19,7 +19,6 @@ router.get('/:id', (req, res)=>{
     const iD = req.params.id;
    for(let i of pokemon){
        if(Number(i.id) == Number(iD)){
-           //console.log(pokemon);
              res.render('indexid',{
                 i: i 
              });
