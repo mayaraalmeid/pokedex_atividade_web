@@ -59,5 +59,4 @@ const dbPath = path.join(__dirname, '../../pokedex/db/pokedex.json');
 
 module.exports = listarPokemon;
 
-//const test = new listarPokemon();
-//console.table(test.pokemons);
+
